@@ -1,0 +1,21 @@
+{
+    "css.lint.unknownAtRules": "ignore",
+    "workbench.colorTheme": "Pitch Black",
+"editor.fontWeight": "normal",
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 80
+
+    
+  }
+,
+
+  {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.suggestSelection": "first",
+    "editor.acceptSuggestionOnEnter": "on"
+  }
+  
