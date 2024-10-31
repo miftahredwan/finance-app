@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
         {children}
       </body> */}
 <head>
-        <link rel="icon" href="/business-finance-money-svgrepo-com.svg"/>
+        <link rel="icon" href="/icons8-rückerstattung-ios-17-filled-32.png"/>
       </head>
 
 <body className={`${inter.className} min-h-screen flex flex-col px-8`}>{children}</body>
