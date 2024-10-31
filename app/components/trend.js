@@ -27,8 +27,8 @@ export default function Trend({
       {formattedAmount}
     </div>
     <div className="flex space-x-1 items-center text-sm">
-      {percentageChange <= 0 && <ArrowDownLeft className="text-red-700 dark:text-red-300" />}
       {percentageChange > 0 && <ArrowUpRight className="text-green-700 dark:text-green-300" />}
+      {percentageChange <= 0 && <ArrowDownLeft className="text-red-700 dark:text-red-300" />}
       <div>{percentageChange}% vs last period</div>
     </div>
   </div>
