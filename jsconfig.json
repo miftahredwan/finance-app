@@ -1,7 +1,16 @@
+// {
+//   "compilerOptions": {
+//     "paths": {
+//       "@/*": ["./dashboard/*"]
+//     }
+//   }
+// }
+
+
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./dashboard/*"]
+      "@dashboard/*": ["dashboard/*"]
     }
   }
 }
