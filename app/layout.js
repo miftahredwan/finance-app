@@ -36,7 +36,9 @@ export default function RootLayout({ children }) {
       >
         {children}
       </body> */}
-
+<head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
 
 <body className={`${inter.className} min-h-screen flex flex-col px-8`}>{children}</body>
 
