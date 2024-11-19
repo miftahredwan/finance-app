@@ -12,9 +12,6 @@ export default function Page({children}) {
 <div>
     {/* <Trend/> */}
 </div>
-
-  <footer className="mt-auto text-center py-8">Footer</footer>
-
     </>
   )
 } 
